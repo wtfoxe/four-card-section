@@ -138,31 +138,53 @@
 
  /***** RESPONSIVE *****/
  @media (max-width:376px){
+ 		body{
+ 			width: 100vw;
+ 			height: auto;
+ 		}
  		header{
- 			width: 1300px;
+ 			width: 100%;
  			height: auto;
  		}
  		.container-header{
- 			margin: 50px auto 30px;
+ 			width: 100%;
+ 			margin: 0 auto;
+ 			padding: 60px 20px;
  		}
- 		.content-description{
- 			width: 500px;
- 			margin: auto;
- 			font-size: 26px;
+ 		.header-description{
+ 			width: 100%;
+ 		}
+ 		.header-description p{
+ 			font-size: 20px;
  		}
  		.header-title,
  		.header-subtitle{
- 			font-size: 38px;
+ 			font-size: 24px;
  		}
- 		main{
+ 		.container-card{
+ 			width: 100%;
  			height: auto;
  			display: flex;
  			flex-direction: column;
  		}
- 		.card{
+ 		.container-card .card{
  			margin: 12px auto;
- 			width: 410px;
+ 			width: 76%;
  		}
  		.card h1{ font-size: 30px;}
  		.card p{ font-size: 20px; }
+ 		
+ 		#icon-cyan, #icon-orange{
+ 			margin-left: 200px;
+ 			margin-top: 0;
+ 		}
+ 		#icon-red, #icon-blue{
+ 			margin-left: 200px;
+ 			margin-top: -20px;
+ 		}
+
+ 		.card-center img{}
+ 		footer{
+ 			display: none;
+ 		}
  }
